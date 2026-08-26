@@ -1,0 +1,2062 @@
+--- Record 1 ---
+  a: (:Developer {id: 1, name: "Rahul"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "Java"})
+
+--- Record 2 ---
+  a: (:Developer {id: 1, name: "Rahul"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "Spring Boot"})
+
+--- Record 3 ---
+  a: (:Developer {id: 1, name: "Rahul"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "SQL"})
+
+--- Record 4 ---
+  a: (:Developer {id: 1, name: "Rahul"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 1, name: "Banking Platform"})
+
+--- Record 5 ---
+  a: (:Developer {id: 1, name: "Rahul"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 4, name: "Healthcare App"})
+
+--- Record 6 ---
+  a: (:Developer {id: 1, name: "Rahul"})
+  r: -[:APPLIED_FOR]->
+  b: (:Job {company: "ABC Technologies", id: 101, title: "Java Backend Developer"})
+
+--- Record 7 ---
+  a: (:Developer {id: 2, name: "Priya"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "Java"})
+
+--- Record 8 ---
+  a: (:Developer {id: 2, name: "Priya"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "JavaScript"})
+
+--- Record 9 ---
+  a: (:Developer {id: 2, name: "Priya"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "React"})
+
+--- Record 10 ---
+  a: (:Developer {id: 2, name: "Priya"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 1, name: "Banking Platform"})
+
+--- Record 11 ---
+  a: (:Developer {id: 2, name: "Priya"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 2, name: "E-Commerce Portal"})
+
+--- Record 12 ---
+  a: (:Developer {id: 2, name: "Priya"})
+  r: -[:APPLIED_FOR]->
+  b: (:Job {company: "TechNova", id: 102, title: "Full Stack Developer"})
+
+--- Record 13 ---
+  a: (:Developer {id: 3, name: "Kiran"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "SQL"})
+
+--- Record 14 ---
+  a: (:Developer {id: 3, name: "Kiran"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "Python"})
+
+--- Record 15 ---
+  a: (:Developer {id: 3, name: "Kiran"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "AWS"})
+
+--- Record 16 ---
+  a: (:Developer {id: 3, name: "Kiran"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 3, name: "Cloud Analytics"})
+
+--- Record 17 ---
+  a: (:Developer {id: 3, name: "Kiran"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 4, name: "Healthcare App"})
+
+--- Record 18 ---
+  a: (:Developer {id: 3, name: "Kiran"})
+  r: -[:APPLIED_FOR]->
+  b: (:Job {company: "CloudWorks", id: 103, title: "Cloud Java Engineer"})
+
+--- Record 19 ---
+  a: (:Developer {id: 4, name: "Sneha"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "Java"})
+
+--- Record 20 ---
+  a: (:Developer {id: 4, name: "Sneha"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "Spring Boot"})
+
+--- Record 21 ---
+  a: (:Developer {id: 4, name: "Sneha"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "Docker"})
+
+--- Record 22 ---
+  a: (:Developer {id: 4, name: "Sneha"})
+  r: -[:HAS_SKILL]->
+  b: (:Skill {name: "AWS"})
+
+--- Record 23 ---
+  a: (:Developer {id: 4, name: "Sneha"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 1, name: "Banking Platform"})
+
+--- Record 24 ---
+  a: (:Developer {id: 4, name: "Sneha"})
+  r: -[:WORKED_ON]->
+  b: (:Project {id: 4, name: "Healthcare App"})
+
+--- Record 25 ---
+  a: (:Developer {id: 4, name: "Sneha"})
+  r: -[:APPLIED_FOR]->
+  b: (:Job {company: "ABC Technologies", id: 101, title: "Java Backend Developer"})
+
+--- Record 26 ---
+  a: (:Project {id: 1, name: "Banking Platform"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 1, name: "ABC Technologies"})
+
+--- Record 27 ---
+  a: (:Project {id: 1, name: "Banking Platform"})
+  r: -[:USES]->
+  b: (:Technology {name: "Java"})
+
+--- Record 28 ---
+  a: (:Project {id: 1, name: "Banking Platform"})
+  r: -[:USES]->
+  b: (:Technology {name: "Spring Boot"})
+
+--- Record 29 ---
+  a: (:Project {id: 2, name: "E-Commerce Portal"})
+  r: -[:USES]->
+  b: (:Technology {name: "React"})
+
+--- Record 30 ---
+  a: (:Project {id: 2, name: "E-Commerce Portal"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 2, name: "TechNova"})
+
+--- Record 31 ---
+  a: (:Project {id: 2, name: "E-Commerce Portal"})
+  r: -[:USES]->
+  b: (:Technology {name: "JavaScript"})
+
+--- Record 32 ---
+  a: (:Project {id: 3, name: "Cloud Analytics"})
+  r: -[:USES]->
+  b: (:Technology {name: "Docker"})
+
+--- Record 33 ---
+  a: (:Project {id: 3, name: "Cloud Analytics"})
+  r: -[:USES]->
+  b: (:Technology {name: "AWS"})
+
+--- Record 34 ---
+  a: (:Project {id: 3, name: "Cloud Analytics"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 3, name: "CloudWorks"})
+
+--- Record 35 ---
+  a: (:Project {id: 4, name: "Healthcare App"})
+  r: -[:USES]->
+  b: (:Technology {name: "Python"})
+
+--- Record 36 ---
+  a: (:Project {id: 4, name: "Healthcare App"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 1, name: "ABC Technologies"})
+
+--- Record 37 ---
+  a: (:Project {id: 4, name: "Healthcare App"})
+  r: -[:USES]->
+  b: (:Technology {name: "SQL"})
+
+--- Record 38 ---
+  a: (:Company {id: 1, name: "ABC Technologies"})
+  r: -[:POSTS]->
+  b: (:Job {company: "ABC Technologies", id: 101, title: "Java Backend Developer"})
+
+--- Record 39 ---
+  a: (:Company {id: 1, name: "ABC Technologies"})
+  r: -[:POSTS]->
+  b: (:Job {company: "ABC Technologies", id: 101, title: "Java Backend Developer"})
+
+--- Record 40 ---
+  a: (:Company {id: 2, name: "TechNova"})
+  r: -[:POSTS]->
+  b: (:Job {company: "TechNova", id: 102, title: "Full Stack Developer"})
+
+--- Record 41 ---
+  a: (:Company {id: 2, name: "TechNova"})
+  r: -[:POSTS]->
+  b: (:Job {company: "TechNova", id: 102, title: "Full Stack Developer"})
+
+--- Record 42 ---
+  a: (:Company {id: 3, name: "CloudWorks"})
+  r: -[:POSTS]->
+  b: (:Job {company: "CloudWorks", id: 103, title: "Cloud Java Engineer"})
+
+--- Record 43 ---
+  a: (:Company {id: 3, name: "CloudWorks"})
+  r: -[:POSTS]->
+  b: (:Job {company: "CloudWorks", id: 103, title: "Cloud Java Engineer"})
+
+--- Record 44 ---
+  a: (:Job {company: "ABC Technologies", id: 101, title: "Java Backend Developer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "Java"})
+
+--- Record 45 ---
+  a: (:Job {company: "ABC Technologies", id: 101, title: "Java Backend Developer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "Spring Boot"})
+
+--- Record 46 ---
+  a: (:Job {company: "ABC Technologies", id: 101, title: "Java Backend Developer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "SQL"})
+
+--- Record 47 ---
+  a: (:Job {company: "TechNova", id: 102, title: "Full Stack Developer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "SQL"})
+
+--- Record 48 ---
+  a: (:Job {company: "TechNova", id: 102, title: "Full Stack Developer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "JavaScript"})
+
+--- Record 49 ---
+  a: (:Job {company: "TechNova", id: 102, title: "Full Stack Developer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "React"})
+
+--- Record 50 ---
+  a: (:Job {company: "CloudWorks", id: 103, title: "Cloud Java Engineer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "Java"})
+
+--- Record 51 ---
+  a: (:Job {company: "CloudWorks", id: 103, title: "Cloud Java Engineer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "Docker"})
+
+--- Record 52 ---
+  a: (:Job {company: "CloudWorks", id: 103, title: "Cloud Java Engineer"})
+  r: -[:REQUIRES]->
+  b: (:Skill {name: "AWS"})
+
+--- Record 53 ---
+  a: (:Job {title: "Banking Platform"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 1, name: "ABC Technologies"})
+
+--- Record 54 ---
+  a: (:Job {title: "Cloud Analytics"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 3, name: "CloudWorks"})
+
+--- Record 55 ---
+  a: (:Job {title: "E-Commerce Portal"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 2, name: "TechNova"})
+
+--- Record 56 ---
+  a: (:Job {title: "Healthcare App"})
+  r: -[:FOR_COMPANY]->
+  b: (:Company {id: 1, name: "ABC Technologies"})
+
+
+
+
+[
+  {
+    "a": {
+      "id": "49",
+      "elementId": "49",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Rahul"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393316",
+      "type": "HAS_SKILL",
+      "startNodeId": "49",
+      "endNodeId": "41",
+      "properties": {}
+    },
+    "b": {
+      "id": "41",
+      "elementId": "41",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Java"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "49",
+      "elementId": "49",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Rahul"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393317",
+      "type": "HAS_SKILL",
+      "startNodeId": "49",
+      "endNodeId": "42",
+      "properties": {}
+    },
+    "b": {
+      "id": "42",
+      "elementId": "42",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Spring Boot"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "49",
+      "elementId": "49",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Rahul"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393318",
+      "type": "HAS_SKILL",
+      "startNodeId": "49",
+      "endNodeId": "43",
+      "properties": {}
+    },
+    "b": {
+      "id": "43",
+      "elementId": "43",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "SQL"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "49",
+      "elementId": "49",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Rahul"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393330",
+      "type": "WORKED_ON",
+      "startNodeId": "49",
+      "endNodeId": "53",
+      "properties": {}
+    },
+    "b": {
+      "id": "53",
+      "elementId": "53",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Banking Platform"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "49",
+      "elementId": "49",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Rahul"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393331",
+      "type": "WORKED_ON",
+      "startNodeId": "49",
+      "endNodeId": "56",
+      "properties": {}
+    },
+    "b": {
+      "id": "56",
+      "elementId": "56",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Healthcare App"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "49",
+      "elementId": "49",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Rahul"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393369",
+      "type": "APPLIED_FOR",
+      "startNodeId": "49",
+      "endNodeId": "66",
+      "properties": {}
+    },
+    "b": {
+      "id": "66",
+      "elementId": "66",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "ABC Technologies",
+        "id": 101,
+        "title": "Java Backend Developer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "50",
+      "elementId": "50",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "Priya"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393319",
+      "type": "HAS_SKILL",
+      "startNodeId": "50",
+      "endNodeId": "41",
+      "properties": {}
+    },
+    "b": {
+      "id": "41",
+      "elementId": "41",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Java"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "50",
+      "elementId": "50",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "Priya"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393320",
+      "type": "HAS_SKILL",
+      "startNodeId": "50",
+      "endNodeId": "45",
+      "properties": {}
+    },
+    "b": {
+      "id": "45",
+      "elementId": "45",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "JavaScript"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "50",
+      "elementId": "50",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "Priya"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393321",
+      "type": "HAS_SKILL",
+      "startNodeId": "50",
+      "endNodeId": "46",
+      "properties": {}
+    },
+    "b": {
+      "id": "46",
+      "elementId": "46",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "React"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "50",
+      "elementId": "50",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "Priya"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393333",
+      "type": "WORKED_ON",
+      "startNodeId": "50",
+      "endNodeId": "53",
+      "properties": {}
+    },
+    "b": {
+      "id": "53",
+      "elementId": "53",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Banking Platform"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "50",
+      "elementId": "50",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "Priya"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393332",
+      "type": "WORKED_ON",
+      "startNodeId": "50",
+      "endNodeId": "54",
+      "properties": {}
+    },
+    "b": {
+      "id": "54",
+      "elementId": "54",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "E-Commerce Portal"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "50",
+      "elementId": "50",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "Priya"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393370",
+      "type": "APPLIED_FOR",
+      "startNodeId": "50",
+      "endNodeId": "67",
+      "properties": {}
+    },
+    "b": {
+      "id": "67",
+      "elementId": "67",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "TechNova",
+        "id": 102,
+        "title": "Full Stack Developer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "51",
+      "elementId": "51",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Kiran"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393323",
+      "type": "HAS_SKILL",
+      "startNodeId": "51",
+      "endNodeId": "43",
+      "properties": {}
+    },
+    "b": {
+      "id": "43",
+      "elementId": "43",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "SQL"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "51",
+      "elementId": "51",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Kiran"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393322",
+      "type": "HAS_SKILL",
+      "startNodeId": "51",
+      "endNodeId": "44",
+      "properties": {}
+    },
+    "b": {
+      "id": "44",
+      "elementId": "44",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Python"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "51",
+      "elementId": "51",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Kiran"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393324",
+      "type": "HAS_SKILL",
+      "startNodeId": "51",
+      "endNodeId": "48",
+      "properties": {}
+    },
+    "b": {
+      "id": "48",
+      "elementId": "48",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "AWS"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "51",
+      "elementId": "51",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Kiran"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393334",
+      "type": "WORKED_ON",
+      "startNodeId": "51",
+      "endNodeId": "55",
+      "properties": {}
+    },
+    "b": {
+      "id": "55",
+      "elementId": "55",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Cloud Analytics"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "51",
+      "elementId": "51",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Kiran"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393335",
+      "type": "WORKED_ON",
+      "startNodeId": "51",
+      "endNodeId": "56",
+      "properties": {}
+    },
+    "b": {
+      "id": "56",
+      "elementId": "56",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Healthcare App"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "51",
+      "elementId": "51",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Kiran"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393371",
+      "type": "APPLIED_FOR",
+      "startNodeId": "51",
+      "endNodeId": "68",
+      "properties": {}
+    },
+    "b": {
+      "id": "68",
+      "elementId": "68",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "CloudWorks",
+        "id": 103,
+        "title": "Cloud Java Engineer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "52",
+      "elementId": "52",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Sneha"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393325",
+      "type": "HAS_SKILL",
+      "startNodeId": "52",
+      "endNodeId": "41",
+      "properties": {}
+    },
+    "b": {
+      "id": "41",
+      "elementId": "41",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Java"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "52",
+      "elementId": "52",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Sneha"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393326",
+      "type": "HAS_SKILL",
+      "startNodeId": "52",
+      "endNodeId": "42",
+      "properties": {}
+    },
+    "b": {
+      "id": "42",
+      "elementId": "42",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Spring Boot"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "52",
+      "elementId": "52",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Sneha"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393327",
+      "type": "HAS_SKILL",
+      "startNodeId": "52",
+      "endNodeId": "47",
+      "properties": {}
+    },
+    "b": {
+      "id": "47",
+      "elementId": "47",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Docker"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "52",
+      "elementId": "52",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Sneha"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393328",
+      "type": "HAS_SKILL",
+      "startNodeId": "52",
+      "endNodeId": "48",
+      "properties": {}
+    },
+    "b": {
+      "id": "48",
+      "elementId": "48",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "AWS"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "52",
+      "elementId": "52",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Sneha"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393337",
+      "type": "WORKED_ON",
+      "startNodeId": "52",
+      "endNodeId": "53",
+      "properties": {}
+    },
+    "b": {
+      "id": "53",
+      "elementId": "53",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Banking Platform"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "52",
+      "elementId": "52",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Sneha"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393336",
+      "type": "WORKED_ON",
+      "startNodeId": "52",
+      "endNodeId": "56",
+      "properties": {}
+    },
+    "b": {
+      "id": "56",
+      "elementId": "56",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Healthcare App"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "52",
+      "elementId": "52",
+      "labels": [
+        "Developer"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Sneha"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393372",
+      "type": "APPLIED_FOR",
+      "startNodeId": "52",
+      "endNodeId": "66",
+      "properties": {}
+    },
+    "b": {
+      "id": "66",
+      "elementId": "66",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "ABC Technologies",
+        "id": 101,
+        "title": "Java Backend Developer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "53",
+      "elementId": "53",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Banking Platform"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393345",
+      "type": "FOR_COMPANY",
+      "startNodeId": "53",
+      "endNodeId": "63",
+      "properties": {}
+    },
+    "b": {
+      "id": "63",
+      "elementId": "63",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "ABC Technologies"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "53",
+      "elementId": "53",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Banking Platform"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393361",
+      "type": "USES",
+      "startNodeId": "53",
+      "endNodeId": "69",
+      "properties": {}
+    },
+    "b": {
+      "id": "69",
+      "elementId": "69",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Java"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "53",
+      "elementId": "53",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "Banking Platform"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393365",
+      "type": "USES",
+      "startNodeId": "53",
+      "endNodeId": "71",
+      "properties": {}
+    },
+    "b": {
+      "id": "71",
+      "elementId": "71",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Spring Boot"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "54",
+      "elementId": "54",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "E-Commerce Portal"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393367",
+      "type": "USES",
+      "startNodeId": "54",
+      "endNodeId": "58",
+      "properties": {}
+    },
+    "b": {
+      "id": "58",
+      "elementId": "58",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "React"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "54",
+      "elementId": "54",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "E-Commerce Portal"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393346",
+      "type": "FOR_COMPANY",
+      "startNodeId": "54",
+      "endNodeId": "64",
+      "properties": {}
+    },
+    "b": {
+      "id": "64",
+      "elementId": "64",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "TechNova"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "54",
+      "elementId": "54",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "E-Commerce Portal"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393362",
+      "type": "USES",
+      "startNodeId": "54",
+      "endNodeId": "70",
+      "properties": {}
+    },
+    "b": {
+      "id": "70",
+      "elementId": "70",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "JavaScript"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "55",
+      "elementId": "55",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Cloud Analytics"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393366",
+      "type": "USES",
+      "startNodeId": "55",
+      "endNodeId": "59",
+      "properties": {}
+    },
+    "b": {
+      "id": "59",
+      "elementId": "59",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Docker"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "55",
+      "elementId": "55",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Cloud Analytics"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393363",
+      "type": "USES",
+      "startNodeId": "55",
+      "endNodeId": "60",
+      "properties": {}
+    },
+    "b": {
+      "id": "60",
+      "elementId": "60",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "AWS"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "55",
+      "elementId": "55",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "Cloud Analytics"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393347",
+      "type": "FOR_COMPANY",
+      "startNodeId": "55",
+      "endNodeId": "65",
+      "properties": {}
+    },
+    "b": {
+      "id": "65",
+      "elementId": "65",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "CloudWorks"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "56",
+      "elementId": "56",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Healthcare App"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393364",
+      "type": "USES",
+      "startNodeId": "56",
+      "endNodeId": "61",
+      "properties": {}
+    },
+    "b": {
+      "id": "61",
+      "elementId": "61",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "Python"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "56",
+      "elementId": "56",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Healthcare App"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393348",
+      "type": "FOR_COMPANY",
+      "startNodeId": "56",
+      "endNodeId": "63",
+      "properties": {}
+    },
+    "b": {
+      "id": "63",
+      "elementId": "63",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "ABC Technologies"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "56",
+      "elementId": "56",
+      "labels": [
+        "Project"
+      ],
+      "properties": {
+        "id": 4,
+        "name": "Healthcare App"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393368",
+      "type": "USES",
+      "startNodeId": "56",
+      "endNodeId": "72",
+      "properties": {}
+    },
+    "b": {
+      "id": "72",
+      "elementId": "72",
+      "labels": [
+        "Technology"
+      ],
+      "properties": {
+        "name": "SQL"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "63",
+      "elementId": "63",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "ABC Technologies"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393342",
+      "type": "POSTS",
+      "startNodeId": "63",
+      "endNodeId": "66",
+      "properties": {}
+    },
+    "b": {
+      "id": "66",
+      "elementId": "66",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "ABC Technologies",
+        "id": 101,
+        "title": "Java Backend Developer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "63",
+      "elementId": "63",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "ABC Technologies"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393349",
+      "type": "POSTS",
+      "startNodeId": "63",
+      "endNodeId": "66",
+      "properties": {}
+    },
+    "b": {
+      "id": "66",
+      "elementId": "66",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "ABC Technologies",
+        "id": 101,
+        "title": "Java Backend Developer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "64",
+      "elementId": "64",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "TechNova"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393343",
+      "type": "POSTS",
+      "startNodeId": "64",
+      "endNodeId": "67",
+      "properties": {}
+    },
+    "b": {
+      "id": "67",
+      "elementId": "67",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "TechNova",
+        "id": 102,
+        "title": "Full Stack Developer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "64",
+      "elementId": "64",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "TechNova"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393350",
+      "type": "POSTS",
+      "startNodeId": "64",
+      "endNodeId": "67",
+      "properties": {}
+    },
+    "b": {
+      "id": "67",
+      "elementId": "67",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "TechNova",
+        "id": 102,
+        "title": "Full Stack Developer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "65",
+      "elementId": "65",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "CloudWorks"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393344",
+      "type": "POSTS",
+      "startNodeId": "65",
+      "endNodeId": "68",
+      "properties": {}
+    },
+    "b": {
+      "id": "68",
+      "elementId": "68",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "CloudWorks",
+        "id": 103,
+        "title": "Cloud Java Engineer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "65",
+      "elementId": "65",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "CloudWorks"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393351",
+      "type": "POSTS",
+      "startNodeId": "65",
+      "endNodeId": "68",
+      "properties": {}
+    },
+    "b": {
+      "id": "68",
+      "elementId": "68",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "CloudWorks",
+        "id": 103,
+        "title": "Cloud Java Engineer"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "66",
+      "elementId": "66",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "ABC Technologies",
+        "id": 101,
+        "title": "Java Backend Developer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393352",
+      "type": "REQUIRES",
+      "startNodeId": "66",
+      "endNodeId": "41",
+      "properties": {}
+    },
+    "b": {
+      "id": "41",
+      "elementId": "41",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Java"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "66",
+      "elementId": "66",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "ABC Technologies",
+        "id": 101,
+        "title": "Java Backend Developer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393353",
+      "type": "REQUIRES",
+      "startNodeId": "66",
+      "endNodeId": "42",
+      "properties": {}
+    },
+    "b": {
+      "id": "42",
+      "elementId": "42",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Spring Boot"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "66",
+      "elementId": "66",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "ABC Technologies",
+        "id": 101,
+        "title": "Java Backend Developer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393354",
+      "type": "REQUIRES",
+      "startNodeId": "66",
+      "endNodeId": "43",
+      "properties": {}
+    },
+    "b": {
+      "id": "43",
+      "elementId": "43",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "SQL"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "67",
+      "elementId": "67",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "TechNova",
+        "id": 102,
+        "title": "Full Stack Developer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393357",
+      "type": "REQUIRES",
+      "startNodeId": "67",
+      "endNodeId": "43",
+      "properties": {}
+    },
+    "b": {
+      "id": "43",
+      "elementId": "43",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "SQL"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "67",
+      "elementId": "67",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "TechNova",
+        "id": 102,
+        "title": "Full Stack Developer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393355",
+      "type": "REQUIRES",
+      "startNodeId": "67",
+      "endNodeId": "45",
+      "properties": {}
+    },
+    "b": {
+      "id": "45",
+      "elementId": "45",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "JavaScript"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "67",
+      "elementId": "67",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "TechNova",
+        "id": 102,
+        "title": "Full Stack Developer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393356",
+      "type": "REQUIRES",
+      "startNodeId": "67",
+      "endNodeId": "46",
+      "properties": {}
+    },
+    "b": {
+      "id": "46",
+      "elementId": "46",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "React"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "68",
+      "elementId": "68",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "CloudWorks",
+        "id": 103,
+        "title": "Cloud Java Engineer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393358",
+      "type": "REQUIRES",
+      "startNodeId": "68",
+      "endNodeId": "41",
+      "properties": {}
+    },
+    "b": {
+      "id": "41",
+      "elementId": "41",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Java"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "68",
+      "elementId": "68",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "CloudWorks",
+        "id": 103,
+        "title": "Cloud Java Engineer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393359",
+      "type": "REQUIRES",
+      "startNodeId": "68",
+      "endNodeId": "47",
+      "properties": {}
+    },
+    "b": {
+      "id": "47",
+      "elementId": "47",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "Docker"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "68",
+      "elementId": "68",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "company": "CloudWorks",
+        "id": 103,
+        "title": "Cloud Java Engineer"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393360",
+      "type": "REQUIRES",
+      "startNodeId": "68",
+      "endNodeId": "48",
+      "properties": {}
+    },
+    "b": {
+      "id": "48",
+      "elementId": "48",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "name": "AWS"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "73",
+      "elementId": "73",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "title": "Banking Platform"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393373",
+      "type": "FOR_COMPANY",
+      "startNodeId": "73",
+      "endNodeId": "63",
+      "properties": {}
+    },
+    "b": {
+      "id": "63",
+      "elementId": "63",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "ABC Technologies"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "74",
+      "elementId": "74",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "title": "Cloud Analytics"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393374",
+      "type": "FOR_COMPANY",
+      "startNodeId": "74",
+      "endNodeId": "65",
+      "properties": {}
+    },
+    "b": {
+      "id": "65",
+      "elementId": "65",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 3,
+        "name": "CloudWorks"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "75",
+      "elementId": "75",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "title": "E-Commerce Portal"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393375",
+      "type": "FOR_COMPANY",
+      "startNodeId": "75",
+      "endNodeId": "64",
+      "properties": {}
+    },
+    "b": {
+      "id": "64",
+      "elementId": "64",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 2,
+        "name": "TechNova"
+      }
+    }
+  },
+  {
+    "a": {
+      "id": "76",
+      "elementId": "76",
+      "labels": [
+        "Job"
+      ],
+      "properties": {
+        "title": "Healthcare App"
+      }
+    },
+    "r": {
+      "id": "Infinity",
+      "elementId": "4611686018427393376",
+      "type": "FOR_COMPANY",
+      "startNodeId": "76",
+      "endNodeId": "63",
+      "properties": {}
+    },
+    "b": {
+      "id": "63",
+      "elementId": "63",
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "id": 1,
+        "name": "ABC Technologies"
+      }
+    }
+  }
+]
